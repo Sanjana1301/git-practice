@@ -1,0 +1,50 @@
+{
+  "browserName": "chrome",
+  "isRemote": false,
+  "remoteConnectionUrl": "http://localhost:4444/wd/hub",
+  "isElementHighlightEnabled": true,
+  "timeouts": {
+    "timeoutImplicit": 0,
+    "timeoutCondition": 30,
+    "timeoutScript": 10,
+    "timeoutPageLoad": 30,
+    "timeoutPollingInterval": 300,
+    "timeoutCommand": 120
+  },
+  "retry": {
+    "number": 2,
+    "pollingInterval": 300
+  },
+  "logger": {
+    "language": "en",
+    "logPageSource": false
+  },
+  "elementCache": {
+    "isEnabled": false
+  },
+  "driverSettings": {
+    "chrome": {
+      "webDriverVersion": "latest",
+      "systemArchitecture": "X32",
+      "capabilities": {
+        "goog:chromeOptions": {
+          "excludeSwitches": [
+            "enable-automation"
+          ],
+          "useAutomationExtension": false
+        }
+      },
+      "options": {
+        "intl.accept_languages": "en",
+        "safebrowsing.enabled": "true",
+        "credentials_enable_service": false,
+        "profile.password_manager_enabled": false
+      },
+      "startArguments": [
+        "--disable-blink-features=AutomationControlled",
+        "--start-maximized"
+      ],
+      "pageLoadStrategy": "Normal"
+    }
+  }
+}
