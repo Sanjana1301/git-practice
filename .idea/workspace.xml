@@ -1,16 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="63169354-61ac-4107-827b-84f9291347b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TextInputPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TextInputSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TextInput.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/GoogleSearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/environment/prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment/prod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GoogleSearch.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sanjana1301"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sanjana1301/git-practice.git",
+    "accountId": "507f3465-5352-4e86-9851-8ee11eeb552d"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.1812038295684506" />
+      <entry key="MS500" value="2.279725819351226" />
+      <entry key="S2" value="4.505312412999713" />
+      <entry key="S5" value="7.6120824268846015" />
+      <entry key="S10" value="10.073316589079834" />
+      <entry key="S30" value="13.507809905283287" />
+      <entry key="S60" value="15.261155028927549" />
+      <entry key="M2" value="16.467225061199514" />
+      <entry key="M5" value="17.34092688059168" />
+      <entry key="M10" value="17.662154529552602" />
+      <entry key="M15" value="17.7728718150975" />
+      <entry key="M30" value="17.88547376134319" />
+      <entry key="H1" value="17.94249383364306" />
+      <entry key="H2" value="17.971185838288836" />
+      <entry key="H4" value="17.985577609727418" />
+      <entry key="D1" value="17.997594138594543" />
+      <entry key="W1" value="17.999656253313553" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.0008226204949962E-148" />
+      <entry key="MS500" value="3.1293062317321196E-30" />
+      <entry key="S2" value="4.2059297663232434E-8" />
+      <entry key="S5" value="0.0011208430584183707" />
+      <entry key="S10" value="0.033478994286244186" />
+      <entry key="S30" value="0.32229789403746134" />
+      <entry key="S60" value="0.5677128623146225" />
+      <entry key="M2" value="0.75346722710057" />
+      <entry key="M5" value="0.892947132098838" />
+      <entry key="M10" value="0.9449587991541418" />
+      <entry key="M15" value="0.9629607422167624" />
+      <entry key="M30" value="0.9813056313996992" />
+      <entry key="H1" value="0.9906087176073607" />
+      <entry key="H2" value="0.995293282207491" />
+      <entry key="H4" value="0.9976438654186628" />
+      <entry key="D1" value="0.9996069248352824" />
+      <entry key="W1" value="0.9999438369430598" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1391198568956067" />
+      <entry key="MS500" value="2.2006013015569676" />
+      <entry key="S2" value="4.41961150247909" />
+      <entry key="S5" value="7.517823264632124" />
+      <entry key="S10" value="10.021558946089684" />
+      <entry key="S30" value="13.758013541632014" />
+      <entry key="S60" value="15.775921861537414" />
+      <entry key="M2" value="17.187841585123184" />
+      <entry key="M5" value="18.218813413051503" />
+      <entry key="M10" value="18.5992242459508" />
+      <entry key="M15" value="18.7304903142916" />
+      <entry key="M30" value="18.86406603632779" />
+      <entry key="H1" value="18.931735160339315" />
+      <entry key="H2" value="18.965792727391953" />
+      <entry key="H4" value="18.98287760173332" />
+      <entry key="D1" value="18.99714365697749" />
+      <entry key="W1" value="18.999591887024774" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -27,14 +117,40 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG.TestRunner.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature-branch",
+    "git-widget-placeholder": "feature/text-input",
     "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Dell/IdeaProjects/git-practice/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDDFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,5 +171,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/TextInputPage.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

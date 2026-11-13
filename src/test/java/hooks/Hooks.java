@@ -7,7 +7,7 @@ import io.cucumber.java.Before;
 public class Hooks {
 
     private static final String URL =
-            "https://www.google.com";
+            "http://uitestingplayground.com/";
 
     @Before
     public void setUp() {
