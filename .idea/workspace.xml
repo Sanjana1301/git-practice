@@ -1,16 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="63169354-61ac-4107-827b-84f9291347b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InternetHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/FileUploadSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FileUpload.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TextInputPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TextInputSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/environment/prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment/prod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TextInput.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sanjana1301&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sanjana1301/git-practice.git&quot;,
+    &quot;accountId&quot;: &quot;507f3465-5352-4e86-9851-8ee11eeb552d&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0004556722350966" />
+      <entry key="MS500" value="1.2535976464305352" />
+      <entry key="S2" value="2.124924400820782" />
+      <entry key="S5" value="2.58024197499561" />
+      <entry key="S10" value="2.776529091400303" />
+      <entry key="S30" value="3.377845189160957" />
+      <entry key="S60" value="5.79215818237406" />
+      <entry key="M2" value="11.051969449216534" />
+      <entry key="M5" value="22.227657313842503" />
+      <entry key="M10" value="32.03939497677429" />
+      <entry key="M15" value="37.09656338280883" />
+      <entry key="M30" value="43.57995515120725" />
+      <entry key="H1" value="47.508978381330664" />
+      <entry key="H2" value="49.6786388014034" />
+      <entry key="H4" value="50.81960463196179" />
+      <entry key="D1" value="51.80046284752114" />
+      <entry key="W1" value="51.97142512441531" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.733186723814789E-142" />
+      <entry key="S5" value="3.398507740156159E-57" />
+      <entry key="S10" value="5.829672152150723E-29" />
+      <entry key="S30" value="3.877466406709559E-10" />
+      <entry key="S60" value="1.9691283367798978E-5" />
+      <entry key="M2" value="0.0044374861540965906" />
+      <entry key="M5" value="0.11451300315588295" />
+      <entry key="M10" value="0.3383976996905906" />
+      <entry key="M15" value="0.48560699592043166" />
+      <entry key="M30" value="0.6968550752634518" />
+      <entry key="H1" value="0.8347784587921832" />
+      <entry key="H2" value="0.9136621141276366" />
+      <entry key="H4" value="0.9558567435173724" />
+      <entry key="D1" value="0.9925037006239018" />
+      <entry key="W1" value="0.9989256435575121" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9270131435607288" />
+      <entry key="MS500" value="1.2206665237214782" />
+      <entry key="S2" value="2.068560603217172" />
+      <entry key="S5" value="2.543676046812434" />
+      <entry key="S10" value="2.7549768410537188" />
+      <entry key="S30" value="3.369642921002379" />
+      <entry key="S60" value="5.787483081676606" />
+      <entry key="M2" value="11.05327691313017" />
+      <entry key="M5" value="22.33862475023448" />
+      <entry key="M10" value="32.37401602834138" />
+      <entry key="M15" value="37.57880065724214" />
+      <entry key="M30" value="44.274521900586095" />
+      <entry key="H1" value="48.34241727139188" />
+      <entry key="H2" value="50.59157546021097" />
+      <entry key="H4" value="51.77508378550496" />
+      <entry key="D1" value="52.792901467430596" />
+      <entry key="W1" value="52.97034141695894" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -26,19 +123,51 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG.TestRunner.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature-branch",
+    "git-widget-placeholder": "feature/file-upload",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Dell/IdeaProjects/git-practice/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDDFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
